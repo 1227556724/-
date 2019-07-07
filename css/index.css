@@ -1,0 +1,403 @@
+/* 头部 */
+body {
+    background: url(../img/bg.png)no-repeat center;
+    background-attachment: fixed;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 0.9rem;
+    color: #fff;
+    line-height: 0.9rem;
+    border-bottom: 1px solid #396e95;
+}
+
+.header-left {
+    float: left;
+    height: 100%;
+}
+
+.header-left img {
+    height: 0.4rem;
+    margin: 0.25rem 0;
+}
+
+.header-left .font {
+    float: right;
+    font-size: 0.36rem;
+}
+
+.header-right {
+    float: right;
+    height: 100%;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.2rem;
+}
+
+.header-right .time {
+    height: 0.25rem;
+    line-height: 0.25rem;
+}
+
+@font-face {
+    font-family: money;
+    src: url(QuartzRegular.ttf);
+}
+
+/* 头部 */
+.content {
+    width: 100%;
+    margin: 0.44rem 0 0.4rem;
+}
+
+.content .content-card {
+    width: 25%;
+    float: left;
+}
+
+.content .content-center {
+    width: 50%;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.content .content-center .map {
+    min-height: 6rem;
+    width: 100%;
+    /* background: #999; */
+    position: relative;
+}
+
+.content .content-center .map .big-center-card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(50, 50, 50, 0.7);
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 222px;
+    height: 182px;
+}
+
+.content .content-center .map .big-center-card .modal {
+    width: 100%;
+}
+
+.content .content-center .map .big-center-card .modal h2 {
+    color: rgb(75, 223, 255);
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.content .content-center .map .big-center-card .modal .text {
+    line-height: 30px;
+}
+
+.content .content-center .map .big-center-card .modal .money {
+    color: #26f5d5;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.content .content-center .map .big-center-card .modal .car {
+    width: 80%;
+    height: 40px;
+    background: #18233b;
+    margin: 0 20px;
+}
+
+.modal .car>div:nth-child(1) {
+    box-sizing: border-box;
+    border-right: 1px solid rgba(74, 223, 255, 0.5);
+}
+
+.modal .car>div {
+    float: left;
+    width: 50%;
+    line-height: 20px;
+}
+
+.modal .car>div span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.modal .bottom>div {
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.modal .bottom>div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.modal .car>div span:nth-child(2) {
+    color: rgb(74, 223, 255);
+    font-size: 20px;
+}
+
+.content-center .stop-photo {
+    width: 100%;
+    height: 3rem;
+    background: url(../img/stop-photo.png)no-repeat center center/100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-center .stop-photo .stop-box {
+    height: 3rem;
+    width: 2000px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.content-center .stop-photo .stop-box li {
+    float: left;
+    width: 2rem;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    margin-right: 0.05rem;
+    font-size: 0.14rem;
+    text-align: center;
+    color: #c5e7ff;
+}
+
+.content-center .stop-photo .stop-box li .in-outtime {
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.content-center .stop-photo .stop-box li .img-car {
+    background: url(../img/car1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 2rem;
+}
+
+.content-center .stop-photo .stop-box li .stop-name {
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.1rem;
+}
+
+.content .content-card .today-income {
+    width: 100%;
+    background: url(../img/today-income.png)no-repeat center center/100% 100%;
+}
+
+.content .content-card .today-income .title {
+    font-size: 0.18rem;
+    color: #c5e7ff;
+    line-height: 0.2rem;
+}
+
+.content .content-card .today-income .center-card {
+    height: 1.6rem;
+    width: 100%;
+}
+
+.content .content-card .today-income .center-card .left-math {
+    float: left;
+    font-size: 0.66rem;
+    color: #fff55a;
+    text-align: center;
+    width: 65%;
+    line-height: 1.6rem;
+    font-family: money;
+}
+
+.content .content-card .today-income .center-card .right-money {
+    padding: 0.2rem 0;
+    width: 35%;
+    float: right;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+    color: #c5e7ff;
+}
+
+.content .content-card .today-income .center-card .right-money .ratio {
+    color: #ff5e5e;
+}
+
+.content .content-card .stop-lenth {
+    margin: 0.2rem 0;
+    width: 100%;
+    height: 3.4rem;
+    background: url(../img/stop-length.png)no-repeat center center/100% 100%;
+}
+
+.content .content-card .stop-lenth h2 {
+    color: #c5e7ff;
+    font-size: 0.2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+.content .content-card .stop-lenth .round {
+    width: 3.28rem;
+    height: 2.6rem;
+    margin: auto;
+}
+
+.content .content-card .device-warning {
+    margin: 0;
+    overflow: hidden;
+}
+
+.content .content-card .device-warning .deice-list {
+    height: 100%;
+    margin: 0 0.32rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.content .content-card .device-warning .deice-list .list-box {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.content .content-card .device-warning .deice-list .list-box .deice-item {
+    color: #c5e7ff;
+    font-size: 0.12rem;
+    margin: 0.1rem 0;
+}
+
+.deice-list .list-box .deice-item .top {
+    height: 0.28rem;
+}
+
+.deice-list .list-box .deice-item .top .person {
+    border: 1px solid #ff5e5e;
+    float: left;
+    height: 0.24rem;
+    border-radius: 0.24rem;
+    font-size: 0.14rem;
+    /* line-height: 0.24rem; */
+}
+
+.deice-list .list-box .deice-item .top .person span {
+    padding: 0 0.1rem;
+}
+
+.deice-list .list-box .deice-item .top .person span:nth-child(1) {
+    background: #ff5e5e;
+    float: left;
+    height: 100%;
+    color: #000;
+    border-radius: 0.24rem;
+}
+
+.content .content-card .device-warning .deice-list .right {
+    width: 100%;
+    position: absolute;
+}
+
+.deice-list .list-box .deice-item .top .time {
+    float: right;
+    line-height: 0.28rem;
+}
+
+.deice-list .list-box .deice-item .info {
+    height: 100%;
+    line-height: 0.28rem;
+    height: 0.28rem;
+}
+
+.deice-list .list-box .deice-item .info .pos {
+    float: left;
+}
+
+.deice-list .list-box .deice-item .info .error {
+    float: right;
+}
+
+.deice-list .list-box .deice-two .top .person-two {
+    border: 1px solid #26f5d5;
+}
+
+.deice-list .list-box .deice-two .top .person-two span:nth-child(1) {
+
+    background: #26f5d5;
+}
+
+.content .content-card .stop-number {
+    width: 100%;
+    height: 1.8rem;
+}
+
+.content .content-card .stop-number .stop-col {
+    padding: 0 4px;
+    float: left;
+    box-sizing: border-box;
+    width: 33.33333%;
+    text-align: center;
+    height: 100%;
+}
+
+.content .content-card .stop-number .stop-col .stop-inner {
+    height: 100%;
+    background: url(../img/stop-number-bg.png)no-repeat center center/cover;
+    overflow: hidden;
+}
+
+.content .content-card .stop-number .stop-col .stop-inner div:nth-child(1) {
+    margin-top: 0.5rem;
+    color: #58e9ff;
+    font-size: 0.28rem;
+    height: 0.4rem;
+}
+
+.content .content-card .stop-number .stop-col .stop-inner div:nth-child(2) {
+    color: #c5e7ff;
+    font-size: 0.16rem;
+    height: 0.4rem;
+}
+
+.content-card .stop-lenth .stop-top-box {
+    height: 2.8rem;
+    padding: 0 0.2rem 0.2rem;
+    box-sizing: border-box;
+}
+
+.deice-list .right li {
+    border-top: 1px dashed #fff;
+    padding: 0.2rem 0;
+    font-size: 0.14rem;
+    color: #fff;
+}
+
+.deice-list .right li h3 {
+    font-weight: bold;
+}
+
+.deice-list .right li .big-piece {
+    height: 0.22rem;
+}
+
+.deice-list .right li .left-text {
+    float: left;
+}
+
+.deice-list .right li .right-text {
+    float: right;
+}

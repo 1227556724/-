@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" rem="1920">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/rem.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="bigBox">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="header-left">
+                <img src="img/logo.png" alt="">
+                <div class="font">停车场运营监控中心</div>
+            </div>
+            <div class="header-right">
+                <div class="time">
+
+                </div>
+                <div class="time date"></div>
+            </div>
+        </div>
+        <!-- 头部 -->
+        <!-- 内容 -->
+        <div class="content clearfix">
+            <!-- 左边 -->
+            <div class="content-card">
+                <!-- 今日收入 -->
+                <div class="today-income">
+                    <div class="title">今日收入 / 元</div>
+                    <div class="center-card">
+                        <div class="left-math"></div>
+                        <div class="right-money">
+                            <span>同比昨日(%)</span>
+                            <div class="img">
+                                <img src="img/up.png" alt="">
+                            </div>
+                            <div class="ratio"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 今日收入 -->
+                <!-- 停车时常 -->
+                <div class="stop-lenth">
+                    <h2>当前停车时长</h2>
+                    <div class="round" id="left-lenth"></div>
+                </div>
+                <!-- 设备警告 -->
+                <div class="stop-lenth device-warning">
+                    <h2>设备警告</h2>
+                    <div class="deice-list">
+                        <ul class="list-box">
+                            <li class="deice-item">
+                                <div class="top">
+                                    <div class="person">
+                                        <span>未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                            <li class="deice-item deice-two">
+                                <div class="top">
+                                    <div class="person person-two">
+                                        <span class="text-one">未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                            <li class="deice-item">
+                                <div class="top">
+                                    <div class="person">
+                                        <span>未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                            <li class="deice-item deice-two">
+                                <div class="top">
+                                    <div class="person person-two">
+                                        <span class="text-one">未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                            <li class="deice-item">
+                                <div class="top">
+                                    <div class="person">
+                                        <span>未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                            <li class="deice-item deice-two">
+                                <div class="top">
+                                    <div class="person person-two">
+                                        <span class="text-one">未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                            <li class="deice-item">
+                                <div class="top">
+                                    <div class="person">
+                                        <span>未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                            <li class="deice-item deice-two">
+                                <div class="top">
+                                    <div class="person person-two">
+                                        <span class="text-one">未处理</span>
+                                        <span>巡逻人员：李白</span>
+                                    </div>
+                                    <div class="time">19:00</div>
+                                </div>
+                                <div class="info">
+                                    <div class="pos">绿地世纪城</div>
+                                    <div class="error">入口门坏了</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 中间 -->
+            <div class="content-card content-center">
+                <div class="map" id="map">
+                    <!-- <div class="big-center-card">
+                        <div class="modal">
+                            <h2>千玺广场千玺广场</h2>
+                            <div class="text">今日收入</div>
+                            <div class="money">6922.96</div>
+                            <div class="car">
+                                <div class="left">
+                                    <span>总车位</span>
+                                    <span>114</span>
+                                </div>
+                                <div class="right">
+                                    <span>空余</span>
+                                    <span>114</span>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <div>本日进场 11983</div>
+                                <div>本日出场 11323</div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="stop-photo">
+                    <ul class="stop-box">
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                        <li>
+                            <div class="in-outtime">2018-5-4 18:00</div>
+                            <div class="img-car"></div>
+                            <div class="stop-name">郑州市-千玺广场</div>
+                            <div class="stop-name">车牌 豫A9XS66</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右边 -->
+            <div class="content-card clearfix">
+                <!-- 停车位 -->
+                <div class="stop-number">
+                    <div class="stop-col">
+                        <div class="stop-inner">
+                            <div id="parking">201232</div>
+                            <div>开放泊车位</div>
+                        </div>
+                    </div>
+                    <div class="stop-col">
+                        <div class="stop-inner">
+                            <div id="employ">201232</div>
+                            <div>占用泊位</div>
+                        </div>
+                    </div>
+                    <div class="stop-col">
+                        <div class="stop-inner">
+                            <div id="use">201232</div>
+                            <div>开放泊车位</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 停车收费排行 -->
+                <div class="stop-lenth">
+                    <h2>停车收费排行</h2>
+                    <div class="stop-top-box">
+                        <div id="box1" class="box1" style="width:50%;height:100%;float:left"></div>
+                        <div id="box2" class="box2" style="width:50%;height:100%;float:right"></div>
+                    </div>
+                </div>
+                <!-- 昨日运营情况 -->
+                <div class="stop-lenth device-warning">
+                    <h2>昨日运营情况</h2>
+                    <div class="deice-list">
+                        <ul class="right">
+                            <li>
+                                <h3>郑州市-千玺广场</h3>
+                                <div class="big-piece">
+                                    <span class="left-text">进出车辆7343</span>
+                                    <span class="right-text">总收入<i>￥3432345.00</i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>郑州市-千玺广场</h3>
+                                <div class="big-piece">
+                                    <span class="left-text">进出车辆7343</span>
+                                    <span class="right-text">总收入<i>￥3432345.00</i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>郑州市-千玺广场</h3>
+                                <div class="big-piece">
+                                    <span class="left-text">进出车辆7343</span>
+                                    <span class="right-text">总收入<i>￥3432345.00</i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>郑州市-千玺广场</h3>
+                                <div class="big-piece">
+                                    <span class="left-text">进出车辆7343</span>
+                                    <span class="right-text">总收入<i>￥3432345.00</i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>郑州市-千玺广场</h3>
+                                <div class="big-piece">
+                                    <span class="left-text">进出车辆7343</span>
+                                    <span class="right-text">总收入<i>￥3432345.00</i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>郑州市-千玺广场</h3>
+                                <div class="big-piece">
+                                    <span class="left-text">进出车辆7343</span>
+                                    <span class="right-text">总收入<i>￥3432345.00</i></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/china.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/lucky.js"></script>
+</body>
+
+</html>
